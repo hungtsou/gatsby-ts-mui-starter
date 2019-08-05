@@ -4,6 +4,7 @@ import { Link } from 'gatsby'
 import Image from '../components/image'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Button from '@material-ui/core/Button'
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +16,19 @@ const IndexPage = () => (
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link>
+    <Button variant="contained">Default</Button>
+    <Button variant="contained" color="primary">
+      Primary
+    </Button>
+    <Button variant="contained" color="secondary">
+      Secondary
+    </Button>
+    <Button variant="contained" color="secondary" disabled>
+      Disabled
+    </Button>
+    <Button variant="contained" href="#contained-buttons">
+      Link
+    </Button>
   </Layout>
 )
 
