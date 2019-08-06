@@ -6,6 +6,7 @@ Gatsby starter scaffolding integrated with:
 - Material ui: https://material-ui.com/
 - Story book: https://storybook.js.org/
 - Typescript linter setup with prettier: https://palantir.github.io/tslint/
+- PWA support with gatsby plugins as offline support and app installation in device.
 
 Use `yarn` to install all dependencies.
 
