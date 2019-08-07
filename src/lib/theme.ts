@@ -1,5 +1,5 @@
 import createMuiTheme from '@material-ui/core/styles/createMuiTheme'
-import { blue, grey } from '@material-ui/core/colors'
+import { indigo, purple } from '@material-ui/core/colors'
 
 export const breakpoints = {
   lg: '1200px',
@@ -9,14 +9,14 @@ export const breakpoints = {
 
 export const colorPalette = {
   primary: {
-    dark: blue[700],
-    light: blue[300],
-    main: blue[500]
+    dark: indigo[700],
+    light: indigo[300],
+    main: indigo[500]
   },
   secondary: {
-    dark: grey[700],
-    light: grey[300],
-    main: grey[500]
+    dark: purple[700],
+    light: purple[300],
+    main: purple[500]
   }
 }
 

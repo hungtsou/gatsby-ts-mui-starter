@@ -9,7 +9,7 @@ import InboxIcon from '@material-ui/icons/MoveToInbox'
 import MailIcon from '@material-ui/icons/Mail'
 import useStyles from './styles'
 
-const HeaderWithDrawer: React.FC = ({ children }) => {
+const headerWithDrawerLayout: React.FC = ({ children }) => {
   const classes = useStyles()
   const theme = useTheme()
   const [open, setOpen] = React.useState(false)
@@ -91,4 +91,4 @@ const HeaderWithDrawer: React.FC = ({ children }) => {
   )
 }
 
-export default HeaderWithDrawer
+export default headerWithDrawerLayout
