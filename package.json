@@ -40,6 +40,7 @@
     "@types/storybook__addon-knobs": "^5.0.3",
     "@types/storybook__react": "^4.0.2",
     "babel-loader": "^8.0.6",
+    "babel-plugin-remove-graphql-queries": "^2.7.2",
     "prettier": "^1.18.2",
     "react-docgen-typescript-loader": "^3.1.0",
     "tslint": "^5.18.0",
@@ -64,8 +65,8 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "lint:ts": "tslint \"./src/**/*.ts\" \"./src/**/*.tsx\"",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "NODE_ENV=production start-storybook -s ./public -p 6006",
+    "build-storybook": "NODE_ENV=production build-storybook"
   },
   "repository": {
     "type": "git",
