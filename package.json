@@ -30,7 +30,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "storybook-addon-material-ui": "^0.9.0-alpha.20"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -38,7 +39,6 @@
     "@types/node": "^12.6.9",
     "@types/storybook__addon-knobs": "^5.0.3",
     "@types/storybook__react": "^4.0.2",
-    "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.6",
     "prettier": "^1.18.2",
     "react-docgen-typescript-loader": "^3.1.0",
