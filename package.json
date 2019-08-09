@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-ts-mui-starter",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple starter to get up and developing quickly with Gatsby fully integrated with typescript, material ui and story book.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Hung Tsou <hungtsougg@gmail.com>",
   "dependencies": {
     "@material-ui/core": "^4.3.0",
     "@material-ui/icons": "^4.2.1",
@@ -51,6 +51,7 @@
   },
   "keywords": [
     "gatsby",
+    "react",
     "PWA",
     "typescript",
     "material ui",

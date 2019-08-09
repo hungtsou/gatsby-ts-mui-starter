@@ -18,3 +18,6 @@ Generate production build
 
 Serve build
 `yarn serve`
+
+Open story book
+`yarn storybook`
