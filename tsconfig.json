@@ -6,7 +6,8 @@
     "module": "commonjs",
     "target": "esnext",
     "jsx": "react",
-    "lib": ["dom", "esnext"]
+    "lib": ["dom", "esnext"],
+    "allowSyntheticDefaultImports": true
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules", "build", "scripts"]
