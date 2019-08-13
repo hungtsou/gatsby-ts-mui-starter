@@ -1,6 +1,6 @@
-# gatsby-ts-mui-starter
+# Coffee chain web app
 
-Gatsby starter scaffolding integrated with:
+Boilerplate features:
 
 - Typescript: https://www.typescriptlang.org/
 - Material ui: https://material-ui.com/
