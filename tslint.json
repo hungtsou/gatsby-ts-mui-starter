@@ -8,10 +8,11 @@
     "ordered-imports": [false],
     "no-console": [true],
     "no-var-requires": false,
-    "typedef": [true, "property-declaration", "call-signature"],
+    "typedef": [true, "property-declaration"],
     "no-submodule-imports": false,
     "jsx-boolean-value": false,
-    "object-literal-sort-keys": false
+    "object-literal-sort-keys": false,
+    "no-unused-variable": true
   },
   "rulesDirectory": []
 }
