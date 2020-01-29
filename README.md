@@ -1,4 +1,4 @@
-# Coffee chain web app
+# Gatsby-ts-mui-starter
 
 Boilerplate features:
 
